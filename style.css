@@ -1,0 +1,74 @@
+.container-employee {
+    display: flex;
+    justify-content: space-around;
+    border: "1px solid gainsboro";
+    padding: "5px";
+    border-radius: "10px",
+}
+
+.table-list{
+   text-align: center; 
+}
+.create-btn{
+    background-color: rgb(76, 175, 80);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 16px 5px 16px;
+    color: white;
+}
+.input-search{
+    border: none;
+    background-color: rgb(241, 241, 241);
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+}
+.export-pdf,.editEmployee{
+    border: none;
+    padding:  5px 8px 5px 8px;
+    background-color: rgb(54, 54, 218);
+    color: white;
+    border-radius: 6px;
+}
+.search-icon{
+position: relative;
+top: 4px;
+left: 25px;
+}
+.delete-btn{
+    border: none;
+    background-color: rgb(254, 76, 74);
+    color: white;
+    border-radius: 6px;
+    padding:  5px 8px 5px 8px;
+}
+.head{
+    width: 140px;
+}
+.head-notes{
+    width: 400px;
+    text-align: start;
+    padding-left: 7px;
+    padding-bottom: 4px;
+}
+th {
+    border-right: 1px solid #ccc; 
+    padding: 2px; 
+}
+
+th:last-child {
+    border-right: none; 
+}
+
+.status-button {
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.status-button:hover {
+    background-color: #ddd; 
+    transform: scale(1.05); 
+}
+
+.status-button.active {
+    background-color: #333; 
+    transform: scale(0.98); 
+}
